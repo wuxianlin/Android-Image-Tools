@@ -16,7 +16,7 @@ Android Image Tools on Windows by wuxianlin
 打包boot/recovery
 ----------------
 方法一：将要打包的boot/recovery目录拖到repackimg.bat，即会自动将其打包到boot-new.img/recovery-new.img
-方法二：CMD命令行：repackimg.bat <image_dir> [--original](--original 为可选参数，若使用，则打包原始的ramdisk)
+方法二：CMD命令行：repackimg.bat <image_dir> [--original]  --original 为可选参数，若使用，则打包原始的ramdisk
 
 注意事项
 --------------------------------
